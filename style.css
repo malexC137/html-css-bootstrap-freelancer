@@ -1,6 +1,6 @@
-header {
+header .container .row {
     background-color: rgb(47, 62, 78);
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 .main-top {
@@ -10,7 +10,7 @@ header {
 
 .main-mid-top {
     background-color: white;
-    padding: 100px 0;
+    padding: 30px 0;
 }
 
 .main-mid-bot {
@@ -30,7 +30,7 @@ header {
 
 .footer-bot {
     background-color: rgb(47, 62, 78);
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 [class*="col-"] {
