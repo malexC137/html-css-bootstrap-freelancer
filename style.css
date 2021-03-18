@@ -1,26 +1,30 @@
-header .container .row {
+section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-petrol {
     background-color: rgb(47, 62, 78);
-    padding: 10px 0;
 }
 
-.main-top {
+.my-navbar {
+    /* background-color: rgb(47, 62, 78); */
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0%;
+}
+
+.my-navbar .navbar-brand,
+.my-navbar .navbar-nav > li > a {
+    color: white;
+}
+
+.bg-green {
     background-color: rgb(87, 185, 157);
-    padding: 30px 0;
 }
 
-.main-mid-top {
+.bg-white {
     background-color: white;
-    padding: 30px 0;
-}
-
-.main-mid-bot {
-    background-color: rgb(87, 185, 157);
-    padding: 30px 0;
-}
-
-.main-bot {
-    background-color: white;
-    padding: 30px 0;
 }
 
 .footer-top {
@@ -28,13 +32,61 @@ header .container .row {
     padding: 30px 0;
 }
 
-.footer-bot {
-    background-color: rgb(47, 62, 78);
-    padding: 20px 0;
+.my-img {
+    max-width: 200px;
 }
 
-[class*="col-"] {
-    padding: 10px 0;
-    background-color: pink;
-    border: solid 1px;
+.text-white {
+    color: white;
+}
+
+.box {
+    margin: 10px 0;
+}
+
+.form-control {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.btn-transparent {
+    background-color: transparent;
+    border: solid 1px white;
+}
+
+.btn-green {
+    background-color: rgb(87, 185, 157);
+    color: white;
+}
+
+.glyphicon-star {
+    font-size: 25px;
+}
+
+.social-icons {
+    /* height: auto; */
+    margin: 10%;
+}
+
+.social-icons a {
+    width: 15%;
+    height: auto;
+    float: left;
+}
+
+.fa {
+    color: white;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+
+.start-bootstrap {
+    color: rgb(87, 185, 157);
+}
+
+.p-footer-bot {
+    font-size: 10px;
 }
