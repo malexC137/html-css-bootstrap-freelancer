@@ -19,6 +19,10 @@ section {
     color: white;
 }
 
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 .bg-green {
     background-color: rgb(87, 185, 157);
 }
@@ -34,6 +38,26 @@ section {
 
 .my-img {
     max-width: 200px;
+}
+
+
+.line {
+    height: 4px;
+    background-color: white;
+    width: calc(35% - 50px);
+    display: inline-block;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+#bg-black {
+    background-color: black;
+}
+
+.star {
+    display: inline-block;
+    font-size: 30px;
+    width: 15%;
 }
 
 .text-white {
@@ -68,19 +92,16 @@ section {
 
 .social-icons {
     /* height: auto; */
-    margin: 10%;
-}
-
-.social-icons a {
-    width: 15%;
-    height: auto;
-    float: left;
+    margin: auto;
 }
 
 .fa {
-    color: white;
-    border: solid 1px white;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    border: solid 1px white;
+    color: white;
+    padding-top: 7.5px;
 }
 
 .start-bootstrap {
